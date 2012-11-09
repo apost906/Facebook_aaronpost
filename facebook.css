@@ -1,0 +1,235 @@
+body {
+	padding:0px;
+	margin:0px;
+	font-family:"lucida sans";
+}
+
+div.wrapper	{
+	width:981px;
+/*	margin:0px auto; */
+}
+
+header {
+	height:34px;
+	position:fixed;
+	top:0px;
+	width:100%;
+	overflow:auto;
+	border-bottom: 1px solid #133783;
+	-webkit-box-shadow: 1px 1px 4px #222; /* Safari and Chrome */
+	box-shadow: 1px 1px 4px #222;
+	background-color:#3b5998;
+	overflow:auto;
+	
+}
+
+a	{
+	text-decoration:none;
+}
+
+h3	{
+	font-size:9px;
+	color:#999db1;
+}
+
+h4	{
+	margin:0px;
+}
+
+h4 a	{
+	color:#3b5998;
+	font-size:13px;
+	
+}
+
+p	{
+	color:#000000;
+	font-size:13px;
+}
+
+ul	{
+	list-style:none;
+	margin:0px;
+}
+
+
+header div ul	{
+	margin:5px 0px 5px 120px;
+	padding:0px;
+}
+
+header div ul li	{
+	float:left;
+	margin-right:5px;
+}
+
+header div ul li a	{
+	color:#fff;
+	font-family:tahoma;
+	font-size:16pt;
+	font-weight:bold;
+}
+
+div.wrapper {
+	margin-top:34px;
+}
+
+header div.wrapper {
+	margin-top:0px;
+}
+
+/* ICON STYLES */
+i {
+	background:url(images/fb-icon-set.png) no-repeat;
+	display:inline-block;
+	height:16px;
+	width:16px;	
+	margin:3px 5px;
+}
+
+i.requests	{
+	background-position:-35px -115px;
+}
+
+i.messages	{
+	background-position:-35px -10px;
+}
+
+i.notifications	{
+	background-position:-35px -80px;
+}
+
+input	{
+	border:1px solid #cccccc;
+	width:300px;
+	margin-left:5px;
+}
+
+
+/* PROFILE NAV */
+
+div.profile	{
+	width:150px;
+	padding:15px 0px 15px 0px;
+	margin:0px 0px 40px 0px;
+}
+
+div.profile img	{
+	height:60px;
+	width:60px;
+	float:left;
+	/*Profile picture is 60px by 60px*/
+}
+
+div.profile h4	{
+	padding:20px 0px 0px 10px;
+	overflow:auto;
+	margin:0px;
+}
+
+
+nav	{
+	float:left;
+	margin:0px 50px 0px 120px;
+	padding:0px 0px 100% 0px;
+}
+
+nav ul	{
+	padding:0;
+}
+
+nav ul li a	{
+	font-size:12px;
+	color:black;
+	font-weight:bold;
+}
+
+nav ul li a i	{
+	margin-bottom:0px;
+	float:left;
+}
+
+i.news	{
+	background-position:-68px -425px;
+}
+
+nav ul li a i.messages	{
+	background-position:-51px -425px;
+}
+
+i.events	{
+	background-position:-52px -575px;
+}
+
+i.photos	{
+	background-position:-66px -558px;
+}
+
+i.music	{
+	background-position:-171px -575px;
+}
+
+/* FEED */
+
+div.post	{
+	min-height:120px;
+	margin:0px 15px 15px 15px;
+	padding-top:5px;
+	border-top:1px solid #cccccc;
+}
+
+div.first-post	{
+	border-top:1px solid #ffffff;
+}
+
+div.post img	{
+	height:80px;
+	width:80px;
+	max-height:100%;
+	max-width:100%;
+	float:left;
+}
+
+div.content	{
+	margin:0px 0px 0px 100px;
+	padding:15px 0px 0px 0px;
+}
+
+div#feed	{
+	border:1px solid #cccccc;
+	width:auto;
+	overflow:auto;
+	
+}
+
+div#feed h3	{
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	padding:5px 5px;
+	margin-top:20px;
+}
+
+div.meta	{
+	font-size:12px;
+	color:#999db1;
+}
+
+div.meta a	{
+	color:#6d84b4;
+}
+
+/* FOOTER */
+
+footer p	{
+	font-size:12px;
+	color:#999db1;
+}
+
+footer p a	{
+	color:#6d84b4;
+}
+
+
+	/*News feed picture is 80px by 80px*/
+	
+	/* Wrapper is 981px across*/
